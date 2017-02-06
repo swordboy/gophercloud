@@ -3,7 +3,7 @@ package base
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 )
 
 // HomeDocument is a resource that contains all the resources for the CDN API.

@@ -3,8 +3,8 @@ package ports
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // AdminState gives users a solid type to work with for create and update
@@ -105,6 +105,9 @@ type CreateOpts struct {
 	TenantID            string
 	SecurityGroups      []string
 	AllowedAddressPairs []AddressPair
+	//fengjj add attrs for newton
+	DnsName          string
+	BindingHost     string
 }
 
 // ToPortCreateMap casts a CreateOpts struct to a map.
@@ -143,7 +146,13 @@ func (opts CreateOpts) ToPortCreateMap() (map[string]interface{}, error) {
 	if opts.AllowedAddressPairs != nil {
 		p["allowed_address_pairs"] = opts.AllowedAddressPairs
 	}
-
+	//fengjj add attrs for newton
+	if opts.DnsName!=""{
+		p["dns_name"]=opts.DnsName
+	}
+	if opts.BindingHost!=""{
+		p["binding:host_id"]=opts.BindingHost
+	}
 	return map[string]interface{}{"port": p}, nil
 }
 
@@ -179,6 +188,8 @@ type UpdateOpts struct {
 	DeviceOwner         string
 	SecurityGroups      []string
 	AllowedAddressPairs []AddressPair
+	//by fengjj,new attrs for newton
+	BindingHost      string
 }
 
 // ToPortUpdateMap casts an UpdateOpts struct to a map.
@@ -206,7 +217,10 @@ func (opts UpdateOpts) ToPortUpdateMap() (map[string]interface{}, error) {
 	if opts.AllowedAddressPairs != nil {
 		p["allowed_address_pairs"] = opts.AllowedAddressPairs
 	}
-
+	//fengjj new attrs for newton
+	if opts.BindingHost!=""{
+		p["binding:host_id"]=opts.BindingHost
+	}
 	return map[string]interface{}{"port": p}, nil
 }
 

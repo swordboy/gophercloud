@@ -1,6 +1,6 @@
 package secgroups
 
-import "github.com/rackspace/gophercloud"
+import "github.com/swordboy/gophercloud"
 
 const (
 	secgrouppath = "os-security-groups"

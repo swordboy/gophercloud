@@ -1,6 +1,6 @@
 package loadbalancers
 
-import "github.com/rackspace/gophercloud"
+import "github.com/swordboy/gophercloud"
 
 const (
 	rootPath     = "lbaas"

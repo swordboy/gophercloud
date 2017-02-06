@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // Pool represents a load balancer pool associated with a RackConnect configuration.

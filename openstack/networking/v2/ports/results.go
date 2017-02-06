@@ -2,8 +2,8 @@ package ports
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 type commonResult struct {
@@ -84,6 +84,9 @@ type Port struct {
 	DeviceID string `mapstructure:"device_id" json:"device_id"`
 	// Identifies the list of IP addresses the port will recognize/accept
 	AllowedAddressPairs []AddressPair `mapstructure:"allowed_address_pairs" json:"allowed_address_pairs"`
+	//added by fengjj,new attrs for newton
+	DnsName   string `mapstructure:"dns_name" json:"dns_name"`
+	BindingHost string `mapstructure:"binding:host_id" json:"binding:host_id"`
 }
 
 // PortPage is the page returned by a pager when traversing over a collection

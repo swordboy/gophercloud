@@ -1,8 +1,8 @@
 package volumes
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 
 	"github.com/mitchellh/mapstructure"
 )

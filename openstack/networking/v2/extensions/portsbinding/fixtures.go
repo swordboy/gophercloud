@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/rackspace/gophercloud/openstack/networking/v2/common"
-	th "github.com/rackspace/gophercloud/testhelper"
+	fake "github.com/swordboy/gophercloud/openstack/networking/v2/common"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func HandleListSuccessfully(t *testing.T) {

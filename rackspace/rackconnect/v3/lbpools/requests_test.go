@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud/testhelper/client"
+	fake "github.com/swordboy/gophercloud/testhelper/client"
 )
 
 func TestListPools(t *testing.T) {

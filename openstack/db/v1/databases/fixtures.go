@@ -5,7 +5,7 @@ package databases
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/testhelper/fixture"
+	"github.com/swordboy/gophercloud/testhelper/fixture"
 )
 
 var (

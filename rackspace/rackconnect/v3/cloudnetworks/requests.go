@@ -1,8 +1,8 @@
 package cloudnetworks
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // List returns all cloud networks that are associated with RackConnect. The ID

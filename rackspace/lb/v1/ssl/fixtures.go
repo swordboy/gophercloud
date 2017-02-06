@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/swordboy/gophercloud/testhelper"
+	fake "github.com/swordboy/gophercloud/testhelper/client"
 )
 
 func _rootURL(id int) string {

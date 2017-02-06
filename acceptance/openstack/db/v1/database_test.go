@@ -3,8 +3,8 @@
 package v1
 
 import (
-	db "github.com/rackspace/gophercloud/openstack/db/v1/databases"
-	"github.com/rackspace/gophercloud/pagination"
+	db "github.com/swordboy/gophercloud/openstack/db/v1/databases"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 func (c context) createDBs() {

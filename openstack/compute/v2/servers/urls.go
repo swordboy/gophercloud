@@ -1,6 +1,6 @@
 package servers
 
-import "github.com/rackspace/gophercloud"
+import "github.com/swordboy/gophercloud"
 
 func createURL(client *gophercloud.ServiceClient) string {
 	return client.ServiceURL("servers")

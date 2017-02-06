@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	members "github.com/rackspace/gophercloud/openstack/imageservice/v2/members"
-	th "github.com/rackspace/gophercloud/testhelper"
+	members "github.com/swordboy/gophercloud/openstack/imageservice/v2/members"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestImageMemberCreateListDelete(t *testing.T) {

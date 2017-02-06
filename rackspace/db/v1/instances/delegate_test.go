@@ -3,12 +3,12 @@ package instances
 import (
 	"testing"
 
-	osDBs "github.com/rackspace/gophercloud/openstack/db/v1/databases"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/instances"
-	osUsers "github.com/rackspace/gophercloud/openstack/db/v1/users"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
-	"github.com/rackspace/gophercloud/testhelper/fixture"
+	osDBs "github.com/swordboy/gophercloud/openstack/db/v1/databases"
+	os "github.com/swordboy/gophercloud/openstack/db/v1/instances"
+	osUsers "github.com/swordboy/gophercloud/openstack/db/v1/users"
+	th "github.com/swordboy/gophercloud/testhelper"
+	fake "github.com/swordboy/gophercloud/testhelper/client"
+	"github.com/swordboy/gophercloud/testhelper/fixture"
 )
 
 var (

@@ -5,9 +5,9 @@ package v2
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud/openstack/networking/v2/apiversions"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/apiversions"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestListAPIVersions(t *testing.T) {

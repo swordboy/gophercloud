@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/blockstorage/v1/snapshots"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
+	"github.com/swordboy/gophercloud/swordboy/blockstorage/v1/snapshots"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestSnapshots(t *testing.T) {

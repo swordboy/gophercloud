@@ -1,8 +1,8 @@
 package stackevents
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // Find retrieves stack events for the given stack name.

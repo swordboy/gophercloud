@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/lbs"
-	"github.com/rackspace/gophercloud/rackspace/lb/v1/vips"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
+	"github.com/swordboy/gophercloud/swordboy/lb/v1/lbs"
+	"github.com/swordboy/gophercloud/swordboy/lb/v1/vips"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestVIPs(t *testing.T) {

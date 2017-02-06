@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/rackspace/rackconnect/v3/lbpools"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/swordboy/rackconnect/v3/lbpools"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestLBPools(t *testing.T) {

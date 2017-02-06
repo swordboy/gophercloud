@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/openstack"
 )
 
 func TestAuthenticatedClient(t *testing.T) {

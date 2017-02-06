@@ -3,10 +3,10 @@ package stackevents
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stackevents"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/swordboy/gophercloud/openstack/orchestration/v1/stackevents"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
+	fake "github.com/swordboy/gophercloud/testhelper/client"
 )
 
 func TestFindEvents(t *testing.T) {

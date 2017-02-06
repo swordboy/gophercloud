@@ -1,6 +1,6 @@
 package groups
 
-import "github.com/rackspace/gophercloud"
+import "github.com/swordboy/gophercloud"
 
 const rootPath = "security-groups"
 

@@ -1,8 +1,8 @@
 package containers
 
 import (
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	th "github.com/swordboy/gophercloud/testhelper"
 	"testing"
 )
 

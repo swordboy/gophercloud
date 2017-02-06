@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/rackspace"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/acceptance/tools"
+	"github.com/swordboy/gophercloud/rackspace"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func newProvider() (*gophercloud.ProviderClient, error) {

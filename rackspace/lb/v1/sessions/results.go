@@ -3,7 +3,7 @@ package sessions
 import (
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 )
 
 // Type represents the type of session persistence being used.

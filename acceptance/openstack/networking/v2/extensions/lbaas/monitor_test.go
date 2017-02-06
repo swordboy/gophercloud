@@ -5,10 +5,10 @@ package lbaas
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas/monitors"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/swordboy/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/lbaas/monitors"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestMonitors(t *testing.T) {

@@ -3,15 +3,15 @@ package instances
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/db/v1/datastores"
-	"github.com/rackspace/gophercloud/openstack/db/v1/flavors"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/instances"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/db/v1/backups"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
-	"github.com/rackspace/gophercloud/testhelper/fixture"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/openstack/db/v1/datastores"
+	"github.com/swordboy/gophercloud/openstack/db/v1/flavors"
+	os "github.com/swordboy/gophercloud/openstack/db/v1/instances"
+	"github.com/swordboy/gophercloud/pagination"
+	"github.com/swordboy/gophercloud/swordboy/db/v1/backups"
+	th "github.com/swordboy/gophercloud/testhelper"
+	fake "github.com/swordboy/gophercloud/testhelper/client"
+	"github.com/swordboy/gophercloud/testhelper/fixture"
 )
 
 func TestInstanceList(t *testing.T) {

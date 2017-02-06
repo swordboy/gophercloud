@@ -1,9 +1,9 @@
 package images
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/images"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	os "github.com/swordboy/gophercloud/openstack/compute/v2/images"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // ListDetail enumerates the available server images.

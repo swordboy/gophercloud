@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	th "github.com/swordboy/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud/testhelper/client"
 )
 
 func mockStartServerResponse(t *testing.T, id string) {

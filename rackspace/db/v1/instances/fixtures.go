@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/db/v1/datastores"
-	"github.com/rackspace/gophercloud/openstack/db/v1/flavors"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/instances"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/openstack/db/v1/datastores"
+	"github.com/swordboy/gophercloud/openstack/db/v1/flavors"
+	os "github.com/swordboy/gophercloud/openstack/db/v1/instances"
 )
 
 var (

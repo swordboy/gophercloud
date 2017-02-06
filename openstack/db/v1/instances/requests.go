@@ -3,10 +3,10 @@ package instances
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
-	db "github.com/rackspace/gophercloud/openstack/db/v1/databases"
-	"github.com/rackspace/gophercloud/openstack/db/v1/users"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	db "github.com/swordboy/gophercloud/openstack/db/v1/databases"
+	"github.com/swordboy/gophercloud/openstack/db/v1/users"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // CreateOptsBuilder is the top-level interface for create options.

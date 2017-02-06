@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/flavors"
-	"github.com/rackspace/gophercloud/pagination"
-	"github.com/rackspace/gophercloud/rackspace/cdn/v1/flavors"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	os "github.com/swordboy/gophercloud/openstack/cdn/v1/flavors"
+	"github.com/swordboy/gophercloud/pagination"
+	"github.com/swordboy/gophercloud/swordboy/cdn/v1/flavors"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func TestFlavor(t *testing.T) {

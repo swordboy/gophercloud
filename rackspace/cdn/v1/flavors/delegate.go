@@ -1,10 +1,10 @@
 package flavors
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 
-	os "github.com/rackspace/gophercloud/openstack/cdn/v1/flavors"
-	"github.com/rackspace/gophercloud/pagination"
+	os "github.com/swordboy/gophercloud/openstack/cdn/v1/flavors"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // List returns a single page of CDN flavors.

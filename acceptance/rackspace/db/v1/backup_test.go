@@ -3,12 +3,12 @@
 package v1
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/acceptance/tools"
+	"github.com/swordboy/gophercloud/pagination"
 
-	"github.com/rackspace/gophercloud/rackspace/db/v1/backups"
-	"github.com/rackspace/gophercloud/rackspace/db/v1/instances"
+	"github.com/swordboy/gophercloud/swordboy/db/v1/backups"
+	"github.com/swordboy/gophercloud/swordboy/db/v1/instances"
 )
 
 func (c *context) createBackup() {

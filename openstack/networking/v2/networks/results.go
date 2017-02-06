@@ -2,8 +2,8 @@ package networks
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 type commonResult struct {
@@ -68,6 +68,10 @@ type Network struct {
 
 	// Specifies whether the network resource can be accessed by any tenant or not.
 	Shared bool `mapstructure:"shared" json:"shared"`
+
+	//added by fengjj,new attrs for newton
+	NetworkType string `mapstructure:"provider:network_type" json:"provider:network_type"`
+	SegmentId int `mapstructure:"provider:segment_id" json:"provider:segment_id"`
 }
 
 // NetworkPage is the page returned by a pager when traversing over a

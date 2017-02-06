@@ -1,6 +1,6 @@
 package cdncontainers
 
-import "github.com/rackspace/gophercloud"
+import "github.com/swordboy/gophercloud"
 
 func enableURL(c *gophercloud.ServiceClient, containerName string) string {
 	return c.ServiceURL(containerName)

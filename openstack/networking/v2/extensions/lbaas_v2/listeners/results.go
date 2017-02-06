@@ -2,9 +2,9 @@ package listeners
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 type LoadBalancerID struct {

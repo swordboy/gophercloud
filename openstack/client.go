@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rackspace/gophercloud"
-	tokens2 "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/rackspace/gophercloud/openstack/identity/v3/tokens"
-	"github.com/rackspace/gophercloud/openstack/utils"
+	"github.com/swordboy/gophercloud"
+	tokens2 "github.com/swordboy/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/swordboy/gophercloud/openstack/identity/v3/tokens"
+	"github.com/swordboy/gophercloud/openstack/utils"
 )
 
 const (

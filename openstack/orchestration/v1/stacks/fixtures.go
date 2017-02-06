@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fake "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/swordboy/gophercloud"
+	th "github.com/swordboy/gophercloud/testhelper"
+	fake "github.com/swordboy/gophercloud/testhelper/client"
 )
 
 // CreateExpected represents the expected object from a Create request.
@@ -323,7 +323,7 @@ var AbandonExpected = &AbandonedStack{
 		},
 	},
 	Files: map[string]string{
-		"file:///Users/prat8228/go/src/github.com/rackspace/rack/my_nova.yaml": "heat_template_version: 2014-10-16\nparameters:\n  flavor:\n    type: string\n    description: Flavor for the server to be created\n    default: 4353\n    hidden: true\nresources:\n  test_server:\n    type: \"OS::Nova::Server\"\n    properties:\n      name: test-server\n      flavor: 2 GB General Purpose v1\n image: Debian 7 (Wheezy) (PVHVM)\n",
+		"file:///Users/prat8228/go/src/github.com/swordboy/rack/my_nova.yaml": "heat_template_version: 2014-10-16\nparameters:\n  flavor:\n    type: string\n    description: Flavor for the server to be created\n    default: 4353\n    hidden: true\nresources:\n  test_server:\n    type: \"OS::Nova::Server\"\n    properties:\n      name: test-server\n      flavor: 2 GB General Purpose v1\n image: Debian 7 (Wheezy) (PVHVM)\n",
 	},
 	StackUserProjectID: "897686",
 	ProjectID:          "897686",
@@ -332,7 +332,7 @@ var AbandonExpected = &AbandonedStack{
 		"parameter_defaults":    make(map[string]interface{}),
 		"parameters":            make(map[string]interface{}),
 		"resource_registry": map[string]interface{}{
-			"file:///Users/prat8228/go/src/github.com/rackspace/rack/my_nova.yaml": "file:///Users/prat8228/go/src/github.com/rackspace/rack/my_nova.yaml",
+			"file:///Users/prat8228/go/src/github.com/swordboy/rack/my_nova.yaml": "file:///Users/prat8228/go/src/github.com/swordboy/rack/my_nova.yaml",
 			"resources": make(map[string]interface{}),
 		},
 	},
@@ -378,14 +378,14 @@ const AbandonOutput = `
     }
   },
   "files": {
-    "file:///Users/prat8228/go/src/github.com/rackspace/rack/my_nova.yaml": "heat_template_version: 2014-10-16\nparameters:\n  flavor:\n    type: string\n    description: Flavor for the server to be created\n    default: 4353\n    hidden: true\nresources:\n  test_server:\n    type: \"OS::Nova::Server\"\n    properties:\n      name: test-server\n      flavor: 2 GB General Purpose v1\n image: Debian 7 (Wheezy) (PVHVM)\n"
+    "file:///Users/prat8228/go/src/github.com/swordboy/rack/my_nova.yaml": "heat_template_version: 2014-10-16\nparameters:\n  flavor:\n    type: string\n    description: Flavor for the server to be created\n    default: 4353\n    hidden: true\nresources:\n  test_server:\n    type: \"OS::Nova::Server\"\n    properties:\n      name: test-server\n      flavor: 2 GB General Purpose v1\n image: Debian 7 (Wheezy) (PVHVM)\n"
 },
   "environment": {
 	"encrypted_param_names": [],
 	"parameter_defaults": {},
 	"parameters": {},
 	"resource_registry": {
-		"file:///Users/prat8228/go/src/github.com/rackspace/rack/my_nova.yaml": "file:///Users/prat8228/go/src/github.com/rackspace/rack/my_nova.yaml",
+		"file:///Users/prat8228/go/src/github.com/swordboy/rack/my_nova.yaml": "file:///Users/prat8228/go/src/github.com/swordboy/rack/my_nova.yaml",
 		"resources": {}
 	}
   },

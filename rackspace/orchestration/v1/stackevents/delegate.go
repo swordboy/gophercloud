@@ -1,9 +1,9 @@
 package stackevents
 
 import (
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/orchestration/v1/stackevents"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	os "github.com/swordboy/gophercloud/openstack/orchestration/v1/stackevents"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // Find retreives stack events for the given stack name.

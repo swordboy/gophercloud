@@ -1,8 +1,8 @@
 package apiversions
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // ListVersions lists all the Neutron API versions available to end-users

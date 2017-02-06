@@ -5,11 +5,11 @@ package fwaas
 import (
 	"testing"
 
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	base "github.com/swordboy/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/fwaas/policies"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/fwaas/rules"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 func firewallPolicySetup(t *testing.T) string {

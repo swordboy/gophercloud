@@ -2,8 +2,8 @@ package provider
 
 import (
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/networks"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // AdminState gives users a solid type to work with for create and update

@@ -1,8 +1,8 @@
 package endpoints
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // EndpointOpts contains the subset of Endpoint attributes that should be used to create or update an Endpoint.

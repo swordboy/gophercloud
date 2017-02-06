@@ -1,7 +1,7 @@
 package volumes
 
 import (
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 )
 
 // WaitForStatus will continually poll the resource, checking for a particular

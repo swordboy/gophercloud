@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	fakeclient "github.com/rackspace/gophercloud/testhelper/client"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
+	fakeclient "github.com/swordboy/gophercloud/testhelper/client"
 )
 
 func TestListImage(t *testing.T) {

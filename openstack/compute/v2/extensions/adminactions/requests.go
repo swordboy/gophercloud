@@ -3,7 +3,7 @@ package adminactions
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 )
 
 func actionURL(client *gophercloud.ServiceClient, id string) string {

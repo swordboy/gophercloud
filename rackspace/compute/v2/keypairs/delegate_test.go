@@ -3,10 +3,10 @@ package keypairs
 import (
 	"testing"
 
-	os "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/keypairs"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	os "github.com/swordboy/gophercloud/openstack/compute/v2/extensions/keypairs"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud/testhelper/client"
 )
 
 func TestList(t *testing.T) {

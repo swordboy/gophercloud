@@ -3,8 +3,8 @@ package tokens
 import (
 	"errors"
 
-	"github.com/rackspace/gophercloud"
-	os "github.com/rackspace/gophercloud/openstack/identity/v2/tokens"
+	"github.com/swordboy/gophercloud"
+	os "github.com/swordboy/gophercloud/openstack/identity/v2/tokens"
 )
 
 var (

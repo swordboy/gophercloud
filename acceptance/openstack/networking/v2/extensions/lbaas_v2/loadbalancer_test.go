@@ -6,16 +6,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rackspace/gophercloud"
-	base "github.com/rackspace/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/networks"
-	"github.com/rackspace/gophercloud/openstack/networking/v2/subnets"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud"
+	base "github.com/swordboy/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/lbaas_v2/listeners"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/lbaas_v2/loadbalancers"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/lbaas_v2/monitors"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/extensions/lbaas_v2/pools"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/networks"
+	"github.com/swordboy/gophercloud/openstack/networking/v2/subnets"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
 )
 
 // Note: when creating a new Loadbalancer (VM), it can take some time before it is ready for use,

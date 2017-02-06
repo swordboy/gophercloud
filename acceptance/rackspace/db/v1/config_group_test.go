@@ -3,11 +3,11 @@
 package v1
 
 import (
-	"github.com/rackspace/gophercloud/acceptance/tools"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/configurations"
-	"github.com/rackspace/gophercloud/pagination"
-	config "github.com/rackspace/gophercloud/rackspace/db/v1/configurations"
-	"github.com/rackspace/gophercloud/rackspace/db/v1/instances"
+	"github.com/swordboy/gophercloud/acceptance/tools"
+	os "github.com/swordboy/gophercloud/openstack/db/v1/configurations"
+	"github.com/swordboy/gophercloud/pagination"
+	config "github.com/swordboy/gophercloud/swordboy/db/v1/configurations"
+	"github.com/swordboy/gophercloud/swordboy/db/v1/instances"
 )
 
 func (c *context) createConfigGrp() {

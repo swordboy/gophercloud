@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/openstack/db/v1/datastores"
-	"github.com/rackspace/gophercloud/openstack/db/v1/flavors"
-	os "github.com/rackspace/gophercloud/openstack/db/v1/instances"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/openstack/db/v1/datastores"
+	"github.com/swordboy/gophercloud/openstack/db/v1/flavors"
+	os "github.com/swordboy/gophercloud/openstack/db/v1/instances"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // Instance represents a remote MySQL instance.

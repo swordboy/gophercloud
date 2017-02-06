@@ -2,7 +2,7 @@ package stacks
 
 import (
 	"fmt"
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 	"reflect"
 	"strings"
 )

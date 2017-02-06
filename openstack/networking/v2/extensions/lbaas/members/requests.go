@@ -1,8 +1,8 @@
 package members
 
 import (
-	"github.com/rackspace/gophercloud"
-	"github.com/rackspace/gophercloud/pagination"
+	"github.com/swordboy/gophercloud"
+	"github.com/swordboy/gophercloud/pagination"
 )
 
 // ListOpts allows the filtering and sorting of paginated collections through

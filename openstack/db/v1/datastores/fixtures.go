@@ -5,7 +5,7 @@ package datastores
 import (
 	"fmt"
 
-	"github.com/rackspace/gophercloud"
+	"github.com/swordboy/gophercloud"
 )
 
 const version1JSON = `

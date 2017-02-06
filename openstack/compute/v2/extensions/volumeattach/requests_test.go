@@ -3,10 +3,10 @@ package volumeattach
 import (
 	"testing"
 
-	fixtures "github.com/rackspace/gophercloud/openstack/compute/v2/extensions/volumeattach/testing"
-	"github.com/rackspace/gophercloud/pagination"
-	th "github.com/rackspace/gophercloud/testhelper"
-	"github.com/rackspace/gophercloud/testhelper/client"
+	fixtures "github.com/swordboy/gophercloud/openstack/compute/v2/extensions/volumeattach/testing"
+	"github.com/swordboy/gophercloud/pagination"
+	th "github.com/swordboy/gophercloud/testhelper"
+	"github.com/swordboy/gophercloud/testhelper/client"
 )
 
 // FirstVolumeAttachment is the first result in ListOutput.
